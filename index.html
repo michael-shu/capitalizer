@@ -6,16 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "style.css"/>
+    <link rel = "stylesheet" href = "libraries/bootstrap-5.2.0-beta1-dist/css/bootstrap.css"/>
 
     <title>Capitalizer</title>
 </head>
 <body>
-    <div>
-    <h1>Capitalizer</h1>
-    <textarea id = "input"></textarea>
-    <pre id = "output">Your output here</pre>
-    <button class = 'btn' id = 'capitalize'>capitalize</button>
-    <script src = "app.js"></script>
-    </div>
+        <div class = "container-sm" id = "bin">
+            <div class = "row justify-content-center">
+            <h1 id = "heading">Capitalizer</h1>
+            <textarea id = "input"></textarea>
+            <pre id = "output">Your output here</pre>
+            <button class = 'btn btn-dark' id = 'capitalize'>capitalize</button>
+         </div>
+<script src = "app.js"></script>
+
 </body>
 </html>

@@ -2,24 +2,42 @@
     color: black;
     background: rgb(247,202,201);
     width: 70%;
-    height: 200px;
+    height: 45%;
     
 }
 
-div{
+@media(min-width:768px)
+{
+    #bin{
+        height: 400px;
+    }
+    #capitalize{
+        width:15%;
+    }
+
+}
+
+
+.container-sm{
     border-radius:25px;
     background: lightskyblue;
-    height: 450px;
     width: 40%;
-    margin: 100px 400px 250px 400px;
     text-align:center;
-    padding: 50px 50px 50px 50px;
-
     font-family:Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #output{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
+    margin:auto;
+    
 }
 
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
